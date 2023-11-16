@@ -43,6 +43,7 @@ nav > a {
     justify-content: center;
     padding-left: 50px;
     background: linear-gradient(90deg, #f5f6f7, #1b1b32);
+    color: #1b1b32;
 }
 
 .dadosPessoais {
