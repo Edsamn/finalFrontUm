@@ -60,6 +60,10 @@ h5 {
     margin-top: 0;
 }
 
+span {
+    color: #f5f6f7;
+}
+
 .textos {
     text-align: left;
     min-width: 200px;
