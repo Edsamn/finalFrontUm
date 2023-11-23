@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    font-family: sans-serif;
+    font-family: Helvetica, sans-serif;
     display: flex;
 }
 
@@ -21,7 +21,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    width: 20%;
+    width: 20vw;
     align-items: center;
     justify-content: space-evenly;
     min-width: 150px;
@@ -36,7 +36,7 @@ nav > a {
 }
 
 .blocoDois {
-    width: 80%;
+    width: 80vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -45,11 +45,19 @@ nav > a {
     padding-left: 50px;
     background: linear-gradient(90deg, #f5f6f7, #1b1b32);
     color: #1b1b32;
-    margin: 0 auto;
 }
 
 .dadosPessoais {
     text-align: left;
+}
+
+h1 {
+    margin-bottom: 0;
+    font-size: 35px;
+}
+
+h5 {
+    margin-top: 0;
 }
 
 .textos {
@@ -61,10 +69,8 @@ nav > a {
 
 .links {
     display: flex;
-    width: 250px;
+    width: 200px;
     justify-content: space-between;
-    
-    
 }
 
 .github, .insta, .linkedin, .face {
