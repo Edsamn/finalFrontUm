@@ -35,6 +35,10 @@ nav > a {
     text-decoration: none;
 }
 
+a:hover {
+    color: gray;
+}
+
 .blocoDois {
     width: 80vw;
     height: 100vh;
