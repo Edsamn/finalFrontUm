@@ -74,10 +74,11 @@ span {
 }
 
 .textos {
-    text-align: left;
+    text-align: justify;
     min-width: 200px;
     max-width: 550px;
     height: fit-content;
+    
 }
 
 .links {
