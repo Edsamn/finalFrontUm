@@ -58,7 +58,7 @@ h5 > span > a {
 
 .dadosPessoais {
     text-align: left;
-    width: 55vw;
+    width: 50vw;
     height: 15vh;
     overflow: auto;
 }
@@ -86,27 +86,22 @@ span {
 
 .links {
     display: flex;
-    width: 200px;
-    justify-content: space-between;
+    width: 15vw;
+    height: 10vh;
     cursor: pointer;
 }
 
 .github, .insta, .linkedin, .face {
-    height: 40px;
-    width: 40px;
+    height: 6vh;
+    width: 3vw;
 }
 
 ol {
     list-style-type: upper-latin;
-    font-size: 20px;
 }
 
-ul {
-    font-size: 20px;
-}
-
-.conhecimentos, .objetivos {
-    font-size: 20px;
+.conhecimentos, .objetivos, ul, ol {
+    font-size: 1.2em;
 }
 
 p, ul, ol {
