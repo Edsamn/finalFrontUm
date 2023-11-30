@@ -75,10 +75,9 @@ span {
 
 .textos {
     text-align: justify;
-    min-width: 200px;
-    max-width: 550px;
+    max-width: 40vw;
     height: fit-content;
-    
+    margin-top: 0;
 }
 
 .links {
