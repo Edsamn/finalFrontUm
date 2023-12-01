@@ -9,8 +9,8 @@ body {
 }
 
 .foto {
-    width: 15vw;
-    height: 33vh;
+    width: 12vw;
+    height: 26vh;
     border-radius: 50%;
     object-fit: cover;
     border: #f5f6f7 5px solid;
@@ -105,5 +105,5 @@ ol {
 }
 
 p, ul, ol {
-    line-height: 30px;
+    line-height: 4vh;
 }
