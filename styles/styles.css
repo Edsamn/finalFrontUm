@@ -65,7 +65,7 @@ h5 > span > a {
 
 h1 {
     margin-bottom: 0;
-    font-size: 2.1em;
+    font-size: 2em;
 }
 
 h5 {
@@ -78,7 +78,7 @@ span {
 
 .textos, .conhecimentos, .objetivos {
     text-align: justify;
-    max-width: 40vw;
+    max-width: 38vw;
     height: fit-content;
     margin-top: 0;
     overflow: auto;
