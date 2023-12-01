@@ -85,14 +85,14 @@ span {
 
 .links {
     display: flex;
-    width: 15vw;
+    width: 200px;
     height: 10vh;
     cursor: pointer;
 }
 
 .github, .insta, .linkedin, .face {
-    height: 6vh;
-    width: 3vw;
+    height: 40px;
+    width: 40px;
 }
 
 ol {
@@ -107,6 +107,35 @@ p, ul, ol {
     line-height: 4vh;
 }
 
+@media (max-width: 900px) {
+    .blocoUm {
+        width: 180px;
+        height: 100vh;
+    }
+
+    .blocoDois {
+        width: 720px;
+        height: 100vh;
+    }
+
+    .conhecimentos, .objetivos, ul, ol {
+        font-size: 0.8em;
+    }
+
+    nav > a, p {
+        font-size: 0.8em;
+    }
+
+    .dadosPessoais, h1 {
+        font-size: 1.1em;
+        overflow: auto;
+    }
+
+    p, ul, ol {
+        line-height: 3.5vh;
+    }
+  }
+
 @media (max-width: 768px) {
     .blocoUm {
         width: 150px;
@@ -118,7 +147,7 @@ p, ul, ol {
         height: 100vh;
     }
 
-    .conhecimentos, .objetivos, ul, ol, h1 {
+    .conhecimentos, .objetivos, ul, ol {
         font-size: 0.8em;
     }
 
@@ -126,8 +155,8 @@ p, ul, ol {
         font-size: 0.6em;
     }
 
-    .dadosPessoais {
-        font-size: 1em;
+    .dadosPessoais, h1 {
+        font-size: 0.8em;
         overflow: auto;
     }
 
