@@ -60,12 +60,12 @@ h5 > span > a {
     text-align: left;
     width: 60vw;
     height: 15vh;
-    overflow: auto;
+    font-size: 1em;
 }
 
 h1 {
     margin-bottom: 0;
-    font-size: 2em;
+    font-size: 1.8em;
 }
 
 h5 {
@@ -81,7 +81,6 @@ span {
     max-width: 38vw;
     height: fit-content;
     margin-top: 0;
-    overflow: auto;
 }
 
 .links {
@@ -107,3 +106,32 @@ ol {
 p, ul, ol {
     line-height: 4vh;
 }
+
+@media (max-width: 768px) {
+    .blocoUm {
+        width: 150px;
+        height: 100vh;
+    }
+
+    .blocoDois {
+        width: 618px;
+        height: 100vh;
+    }
+
+    .conhecimentos, .objetivos, ul, ol, h1 {
+        font-size: 0.8em;
+    }
+
+    nav > a, p {
+        font-size: 0.6em;
+    }
+
+    .dadosPessoais {
+        font-size: 1em;
+        overflow: auto;
+    }
+
+    p, ul, ol {
+        line-height: 3vh;
+    }
+  }
