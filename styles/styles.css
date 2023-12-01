@@ -58,14 +58,14 @@ h5 > span > a {
 
 .dadosPessoais {
     text-align: left;
-    width: 50vw;
+    width: 60vw;
     height: 15vh;
     overflow: auto;
 }
 
 h1 {
     margin-bottom: 0;
-    font-size: 2em;
+    font-size: 2.1em;
 }
 
 h5 {
