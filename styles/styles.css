@@ -81,6 +81,8 @@ span {
     max-width: 38vw;
     height: fit-content;
     margin-top: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .links {
@@ -128,7 +130,6 @@ p, ul, ol {
 
     .dadosPessoais, h1 {
         font-size: 1.1em;
-        overflow: auto;
     }
 
     p, ul, ol {
@@ -148,16 +149,15 @@ p, ul, ol {
     }
 
     .conhecimentos, .objetivos, ul, ol {
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
 
     nav > a, p {
-        font-size: 0.6em;
+        font-size: 0.7em;
     }
 
     .dadosPessoais, h1 {
-        font-size: 0.8em;
-        overflow: auto;
+        font-size: 1em;
     }
 
     p, ul, ol {
